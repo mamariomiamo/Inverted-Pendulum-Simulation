@@ -5,10 +5,9 @@ Refer to [this](http://gazebosim.org/tutorials?tut=ros_plugins) tutorial to crea
 Refer to [this](http://wiki.ros.org/msg) for building and and using msg files.
 
 To use this example, 
-- create a ROS package using catkin in workspace.
-- update package.xml and cmakelists.txt.
-- place all files in appropriate folders.
-- compile using catkin_make.
+- mkdir -p ~/pendulum_ws/src && cd ~/pendulum_ws/src
+- git clone https://github.com/mamariomiamo/gazebo_tutorials
+- cd ~/pendulum_ws && catkin_make
 - source setup.*sh file,
 >source devel/setup.bash
 - run, 
