@@ -6,7 +6,7 @@ Refer to [this](http://wiki.ros.org/msg) for building and and using msg files.
 
 To use this example, 
 - mkdir -p ~/pendulum_ws/src && cd ~/pendulum_ws/src
-- git clone https://github.com/mamariomiamo/gazebo_tutorials
+- git clone git@github.com:mamariomiamo/gazebo_tutorials.git
 - cd ~/pendulum_ws && catkin_make
 - source setup.*sh file,
 >source devel/setup.bash
